@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="845.0" prefWidth="1206.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ass.HelloController">
+   <children>
+      <Label layoutX="459.0" layoutY="37.0" text="SAKSHAM" textFill="#d70909">
+         <font>
+            <Font size="52.0" />
+         </font>
+      </Label>
+      <Pane layoutX="101.0" layoutY="145.0" prefHeight="81.0" prefWidth="100.0" style="-fx-border-color: black;" fx:id="xx1" />
+      <Pane layoutX="101.0" layoutY="423.0" prefHeight="81.0" prefWidth="100.0" style="-fx-border-color: black;" fx:id="xx7" />
+      <Pane layoutX="101.0" layoutY="282.0" prefHeight="81.0" prefWidth="100.0" style="-fx-border-color: black;" fx:id="xx4" />
+      <Pane layoutX="477.0" layoutY="423.0" prefHeight="81.0" prefWidth="100.0" style="-fx-border-color: black;" fx:id="xx8" />
+      <Pane layoutX="832.0" layoutY="423.0" prefHeight="81.0" prefWidth="100.0" style="-fx-border-color: black;" fx:id="xx9" />
+      <Pane layoutX="477.0" layoutY="282.0" prefHeight="81.0" prefWidth="100.0" style="-fx-border-color: black;" fx:id="xx5" />
+      <Pane layoutX="832.0" layoutY="282.0" prefHeight="81.0" prefWidth="100.0" style="-fx-border-color: black;" fx:id="xx6" />
+      <Pane layoutX="832.0" layoutY="145.0" prefHeight="81.0" prefWidth="100.0" style="-fx-border-color: black;" fx:id="xx3" />
+      <Pane layoutX="477.0" layoutY="145.0" prefHeight="81.0" prefWidth="100.0" style="-fx-border-color: black;" fx:id="xx2" />
+      <TextField fx:id="Bcha1" layoutX="58.0" layoutY="220.0" />
+      <TextField fx:id="Bcha9" layoutX="781.0" layoutY="504.0" />
+      <TextField fx:id="Bcha8" layoutX="434.0" layoutY="504.0" />
+      <TextField fx:id="Bcha7" layoutX="51.0" layoutY="504.0" />
+      <TextField fx:id="Bcha4" layoutX="58.0" layoutY="363.0" />
+      <TextField fx:id="Bcha6" layoutX="789.0" layoutY="363.0" />
+      <TextField fx:id="Bcha5" layoutX="434.0" layoutY="363.0" />
+      <TextField fx:id="Bcha3" layoutX="789.0" layoutY="225.0" />
+      <TextField fx:id="Bcha2" layoutX="434.0" layoutY="225.0" />
+      <TextField fx:id="Student" layoutX="165.0" layoutY="624.0" prefHeight="21.0" prefWidth="195.0" />
+      <Label layoutX="58.0" layoutY="610.0" prefHeight="58.0" prefWidth="204.0" text="Name" />
+      <Label layoutX="58.0" layoutY="668.0" prefHeight="31.0" prefWidth="140.0" text="Color" />
+      <ColorPicker fx:id="rang" layoutX="160.0" layoutY="676.0" />
+      <Button fx:id="Button" layoutX="937.0" layoutY="625.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="90.0" prefWidth="163.0" text="Ok" />
+      <Label fx:id="error" alignment="CENTER" layoutX="620.0" layoutY="585.0" prefHeight="163.0" prefWidth="246.0" text="Error message appears here" />
+   </children>
+</Pane>
